@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Music Organizer</h1>
+        <div class="player">
+            <div class="details">
+                <span id="song-title">Song Title</span>
+                <span id="artist-name">Artist Name</span>
+            </div>
+            <div class="controls">
+                <button id="prev">Prev</button>
+                <button id="play">Play</button>
+                <button id="next">Next</button>
+            </div>
+            <div class="progress">
+                <input type="range" id="progress-bar" value="0">
+            </div>
+        </div>
+        <div class="playlist">
+            <ul id="song-list">
+                <!-- Songs will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
